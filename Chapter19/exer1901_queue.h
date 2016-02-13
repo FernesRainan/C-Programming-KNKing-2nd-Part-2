@@ -14,15 +14,11 @@
 
 #include <stdbool.h>
 
-typedef int qItem;
-
-typedef struct queue_type *Queue;
-
-void q_insert(Queue q, qItem i);
-qItem q_remove(Queue q);
-qItem q_first(const Queue q);
-qItem q_last(const Queue q);
-bool q_is_empty(Queue q);
+void insert(int i);
+int remove(void);
+int first(void);
+int last(void);
+bool is_empty(void);
 
 #endif
 
