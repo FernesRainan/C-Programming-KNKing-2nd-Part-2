@@ -20,8 +20,10 @@
 #define int qItem
 
 typedef struct {
-	int contents[QUEUE_SIZE];
-	int order;
+	qItem contents[QUEUE_SIZE];
+	int rear;
+	int front;
+	int count;
 } Queue;
 
 void q_insert(Queue *q, qItem i);
