@@ -20,8 +20,8 @@ typedef struct queue_type *Queue;
 
 void q_insert(Queue q, qItem i);
 qItem q_remove(Queue q);
-qItem q_first(Queue q);
-qItem q_last(Queue q);
+qItem q_first(const Queue q);
+qItem q_last(const Queue q);
 bool q_is_empty(Queue q);
 
 #endif
