@@ -1,4 +1,4 @@
-// exercise 1903a array type queue test program
+// exercise 1903b linked list type queue test program
 
 #include <stdio.h>
 #include "queue.h"
