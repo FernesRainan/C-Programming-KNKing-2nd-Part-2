@@ -1,5 +1,5 @@
 // (c) Add a peek function to stackADT3.c. This function will have a parameter of type
-// Stack. When called, it returns the top tiem on the stack but doesn't modify the stack. 
+// Stack. When called, it returns the top item on the stack but doesn't modify the stack. 
 
 // Implementing the Stack ADT Using a Linked List
 
