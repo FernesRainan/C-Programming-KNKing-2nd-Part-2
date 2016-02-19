@@ -1,5 +1,5 @@
 // (b) Add a peek function to stackADT2.c. This function will have a parameter of type
-// Stack. When called, it returns the top tiem on the stack but doesn't modify the stack. 
+// Stack. When called, it returns the top item on the stack but doesn't modify the stack. 
 
 // The create function now calls malloc twice: once to allocate a stack_type
 // structure and once to allocate the array that will contain the stack items. Either call
