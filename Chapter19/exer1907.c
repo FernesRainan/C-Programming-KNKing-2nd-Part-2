@@ -60,13 +60,18 @@ void push(Stack s, Item i)
 	int j;
 	
 	if (is_full(s)){
-		Stack temp1, temp2;
-		temp1->contents = malloc(2 * (s->size) * sizeof(Item));
+		Stack temp1 = malloc(sizeof(struct stack_type));
+		if(temp1 == NULL)
+			terminate("Error in create: stack could not be created.");
 		
+		Stack temp2;
+				
+		temp1->contents = malloc(2 * (s->size) * sizeof(Item));
 		if (temp1->contents == NULL) {
 			free(temp1);
 			terminate("Error in create: stack could not be created.");
 		}
+				
 		temp1->top = 0;
 		temp1->size = 2 * (s->size);
 		s->top = 0;
