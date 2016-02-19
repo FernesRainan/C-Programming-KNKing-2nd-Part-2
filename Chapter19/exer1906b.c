@@ -76,7 +76,7 @@ Item peek(const Stack s)
 {
 	if (is_empty(s))
 		terminate("Error in pop: stack is empty.");
-	int value = s->contents[--s->top];
+	Item value = s->contents[--s->top];
 	s->contents[s->top++];
 	
 	return value;
