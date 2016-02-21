@@ -25,7 +25,7 @@ int main (void)
 	
 	printf("The first value is %d, The last value is %d\n", first(q1), last(q1));
 	printf("Remove queue %d\n", qremove(q1));
-	printf("Memeber's number of Queue is %d.\n", length(q1));
+	printf("Member's number of Queue is %d.\n", length(q1));
 	
 	destroy(q1);
 	
