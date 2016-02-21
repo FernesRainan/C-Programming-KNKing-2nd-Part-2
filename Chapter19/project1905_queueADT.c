@@ -29,7 +29,7 @@ Queue create(void)
 {
 	Queue q = malloc(sizeof(struct queue_type));
 	if (q == NULL)
-		terminate("Error in create: queue cound not be created.");
+		terminate("Error in create: queue could not be created.");
 	q->rear = q->front = 0;
 	q->count = 0;
 	return q;
