@@ -13,7 +13,7 @@ unsigned long rotate_right(unsigned long i, int n);
 
 int main (void)
 {
-	unsigned long i
+	unsigned long i;
 	int j;
 	char s;
 	
