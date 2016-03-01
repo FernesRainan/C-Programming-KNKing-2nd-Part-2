@@ -12,7 +12,7 @@ int main(void)
 	unsigned int n;
 	
 	printf("Please enter an integer: ");
-	scanf("%d", &n);
+	scanf("%u", &n);
 	
 	for (; n > 0 ; ){
 		printf("n is %u and 0x%X.\n", n, n);
