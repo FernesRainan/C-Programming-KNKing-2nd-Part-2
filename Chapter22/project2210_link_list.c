@@ -270,9 +270,9 @@ void restore(void)
 		new_node->number = temp.number;
 		
 		for (cur = inventory, prev = NULL;
-	     cur != NULL && new_node->number > cur->number;
-	     prev = cur, cur = cur->next)
-	     ;
+	     	     cur != NULL && new_node->number > cur->number;
+	     	     prev = cur, cur = cur->next)
+	     	     ;
 	  
 		strcpy(new_node->name, temp.name);
 		new_node->on_hand = temp.on_hand;
