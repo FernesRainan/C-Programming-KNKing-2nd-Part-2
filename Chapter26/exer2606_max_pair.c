@@ -54,8 +54,8 @@ char *max_pair(int num_pairs, ...)
 int main(void)
 {
 	printf("The result is \"%s\"\n", max_pair(5, 180, "Seinfeld", 180, "I love Lucy", 
-															             539, "The Honeymooners", 210, "All in the Family",
-              															86, "The Sopranos"));
+					             539, "The Honeymooners", 210, "All in the Family",
+					             86, "The Sopranos"));
 	
 	return 0;
 }
